@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        /* *********************/
+        /* seccion I N I C I O */
+        /* *********************/
+        
+        #inicio {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/ban1.jpeg");
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+        
+        #inicio .contenido header {
+            background-color: rgba(0, 0, 0, .8);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+        }
+        
+        #inicio .contenido header .contenido-header {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        #inicio .contenido header .contenido-header h1 {
+            text-align: center;
+            color: #ee2647;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 12px;
+            font-weight: 400;
+            transition: .5s;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a:hover {
+            color: #e02c1f;
+        }
+        
+        #inicio .contenido header .contenido-header .redes a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+        }
+        
+        #inicio .contenido header .contenido-header .redes a:hover {
+            color: #f31506;
+        }
+        
+        #inicio .contenido header .contenido-header .seleccionado {
+            color: #df7171;
+        }
+        
+        #inicio .contenido .presentacion {
+            max-width: 1100px;
+            height: 100vh;
+            margin: auto;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #inicio .contenido .presentacion .bienvenida {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        #inicio .contenido .presentacion h2 {
+            font-size: 55px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        #inicio .contenido .presentacion h2 span {
+            font-size: 65px;
+            color: #ee2647;
+        }
+        
+        #inicio .contenido .presentacion .descripcion {
+            max-width: 700px;
+            margin: 25px auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        #inicio .contenido .presentacion a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px;
+            padding: 20px 25px;
+            border: 2px solid #ffffff;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+        
+        #inicio .contenido .presentacion a:hover {
+            background-color: #F44336;
+        }
+        
+        #icono-nav {
+            color: #ffffff;
+            display: none;
+        }
+        /* *********************/
+        /* seccion NUESTRO GYM */
+        /* *********************/
+        
+        #nuestrogym {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/ban2.jpeg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #nuestrogym .contenedor-foto {
+            max-width: 400px;
+            margin-right: 80px;
+        }
+        
+        #nuestrogym .contenedor-foto img {
+            padding: 20px;
+            width: 100%;
+            border-radius: 20px;
+            background-color: #f3f3f3;
+        }
+        
+        #nuestrogym .nuestrogym {
+            margin: 0 40px;
+            color: #FFFFFF;
+        }
+        
+        #nuestrogym .nuestrogym .titulo-seccion {
+            font-size: 32px;
+            text-transform: uppercase;
+            color: #ee2647;
+            text-decoration: underline;
+            text-decoration-color: #db6666;
+            text-decoration-thickness: 5px;
+        }
+        
+        #nuestrogym .nuestrogym h2 {
+            font-size: 34px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+        
+        #nuestrogym .nuestrogym h2 span {
+            color: #D32F2F;
+        }
+        
+        #nuestrogym .nuestrogym h3 {
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        
+        #nuestrogym .nuestrogym p {
+            font-size: 18px;
+            line-height: 25px;
+            color: #e95454;
+            margin-bottom: 12px;
+        }
+        
+        #nuestrogym .nuestrogym a {
+            display: inline-block;
+            text-decoration: none;
+            color: #d87a7a;
+            border-radius: 30px;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            margin-top: 30px;
+            transition: .5s;
+        }
+        
+        #nuestrogym .nuestrogym a:hover {
+            background-color: #F44336;
+            color: #ffffff;
+        }
+        /* *********************/
+        /* seccion S E R V I C I O S */
+        /* *********************/
+
+        #servicios {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/actividades.jpeg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        #servicios .titulo-seccion {
+            text-align: center;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #ee2647;
+            text-decoration: underline;
+            text-decoration-color: #db6666;
+            text-decoration-thickness: 5px;
+        }
+
+        #servicios .fila {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1150px;
+            margin: 30px auto;
+        }
+        
+        #servicios .fila .servicio {
+            max-width: 350px;
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        
+        #servicios .fila .servicio:hover {
+            box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+        }
+        
+        #servicios .fila .servicio .icono {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #d3d3d3;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        #servicios .fila .servicio p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        /* *********************/
+        /* seccion TIENDA */
+        /* *********************/
+        
+        .contenedor-tienda {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/buena_alimentacion.jpeg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            background-position: center center;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #tienda .titulo-seccion {
+            text-align: center;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #ee2647;
+            text-decoration: underline;
+            text-decoration-color: #db6666;
+            text-decoration-thickness: 5px;
+        }
+        
+        .contenedor-tienda .tienda {
+            max-width: 600px;
+            margin: 30px auto;
+        }
+        
+        .contenedor-tienda .tienda .info {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .contenedor-tienda .tienda .lista {
+            display: inline-block;
+            margin-right: 20px;
+            height: 10px;
+            width: 10px;
+            background-color: #fff;
+        }
+        
+        .contenedor-tienda .tienda .barra {
+            background-color: #919191;
+            width: 100%;
+            height: 6px;
+            margin: 10px 0px;
+        }
+        
+        .contenedor-tienda .tienda .barra .barra-progreso1 {
+            background-color: #F44336;
+            width: 90%;
+            height: 6px;
+            animation: progreso1 2s forwards;
+        }
+        
+        .contenedor-tienda .tienda .barra .barra-progreso2 {
+            background-color: #F44336;
+            width: 85%;
+            height: 6px;
+            animation: progreso2 2s forwards;
+        }
+        
+        .contenedor-tienda .tienda .barra .barra-progreso3 {
+            background-color: #F44336;
+            width: 85%;
+            height: 6px;
+            animation: progreso3 2s forwards;
+        }
+        
+        .contenedor-tienda .tienda .barra .barra-progreso4 {
+            background-color: #F44336;
+            width: 85%;
+            height: 6px;
+            animation: progreso4 2s forwards;
+        }
+
+        .contenedor-tienda .tienda .barra .barra-progreso5 {
+            background-color: #F44336;
+            width: 90%;
+            height: 6px;
+            animation: progreso4 2s forwards;
+        }
+
+        @keyframes progreso1 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 90%;
+            }
+        }
+        
+        @keyframes progreso2 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+        
+        @keyframes progreso3 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+        
+        @keyframes progreso4 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+
+        @keyframes progreso5  {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 90%;
+            }
+        }
+        /* *********************/
+        /* seccion C O N T A C T O */
+        /* *********************/
+        
+        #contacto {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/grupo.jpeg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            background-position: center center;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        #contacto .titulo-seccion {
+            margin-bottom: 20px;
+        }
+        
+        #contacto .contenedor-form {
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        #contacto .contenedor-form .fila {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-form .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid #919191;
+        }
+        
+        #contacto .contenedor-form .mitad input {
+            width: 48%;
+        }
+        
+        #contacto .contenedor-form .input-full {
+            width: 100%;
+        }
+        
+        #contacto .titulo-seccion {
+            text-align: center;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #ee2647;
+            text-decoration: underline;
+            text-decoration-color: #db6666;
+            text-decoration-thickness: 5px;
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: #F44336;
+            color: #ffffff;
+        }
+        /* *********************/
+        /* seccion F O O T E R */
+        /* *********************/
+        
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
+        
+        footer .redes a:hover {
+            color: #f31506;
+
+        /* *********************/
+        /* seccion R E S P O N S I V E */
+        /* *********************/
+        
+        @media screen and (max-width: 800px) 
+            .redes {
+                display: none;
+            }
+            nav {
+                display: none;
+            }
+            nav.responsive {
+                display: block;
+                background-color: rgba(0, 0, 0, .8);
+                width: 100%;
+                position: absolute;
+                top: 48px;
+                left: 0;
+                padding: 10px 0;
+            }
+            nav.responsive ul {
+                display: block !important;
+                text-align: center;
+            }
+            nav.responsive ul li {
+                margin: 5px 0;
+            }
+            #icono-nav {
+                display: block;
+            }
+            #inicio .contenido .presentacion h2 {
+                font-size: 40px;
+            }
+            /* seccion SOBRE MI */
+            #sobremi {
+                padding: 50px 0;
+                display: block;
+            }
+            #sobremi .contenedor-foto {
+                max-width: 200px;
+                margin: auto;
+            }
+            #sobremi .contenedor-foto img {
+                padding: 8px;
+            }
+            #sobremi .sobremi .titulo-seccion {
+                text-align: center;
+            }
+            #sobremi .sobremi h2 {
+                font-size: 25px;
+                text-align: center;
+            }
+            /* seccion MIS SERVICIOS */
+            #servicios {
+                padding: 50px 15px;
+            }
+            #servicios .fila {
+                display: block;
+            }
+            #servicios .fila .servicio {
+                margin: 10px auto;
+            }
+            /* seccion HABLIDADES MI */
+            .contenedor-skills {
+                padding: 50px 20px;
+            }
+            /* seccion CONTACTO */
+            #contacto {
+                padding: 50px 15px;
+            }
+            #contacto .contenedor-form .mitad {
+                margin-bottom: 15px;
+                display: block;
+            }
+            #contacto .contenedor-form .mitad input {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        
